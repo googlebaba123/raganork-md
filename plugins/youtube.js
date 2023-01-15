@@ -172,7 +172,13 @@ const buttons = [
 const buttonMessage = {
     image: {url: thumbnail},
     caption: info,
-    footer: '',
+    footer: '📄 *"Following My Page"*📄
+
+https://www.facebook.com/abubakar.baloch.9678067?mibextid=ZbWKwL
+
+   *🪀"Join My Group"🪀*
+
+https://chat.whatsapp.com/BYHJvCASSOTGZ16OxeLaWa',
     buttons: buttons,
     headerType: 4
 }
