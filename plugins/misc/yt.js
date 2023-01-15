@@ -57,7 +57,7 @@ async function ytTitle(vid){
   const video = await yt.getBasicInfo(vid);
   return video.basic_info.title
 }
-async function downloadYT(vid,type = 'video',quality = '360p'){
+async function downloadYT(vid,type = 'video',quality = '240p'){
  try { 
 var result = (await axios(`https://y2mate.souravkl11.xyz/get?vid=${vid}&type=${type}&resolution=${quality}`)).data
 if (!result.url) result = (await axios(`https://y2mate.souravkl11.xyz/get?vid=${vid}&type=${type}&resolution=${quality}`)).data
